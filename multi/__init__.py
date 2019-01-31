@@ -1,9 +1,3 @@
-"""
-
-multithreading to use when I/O bound operation happens
-multiprocessing when CPU bound
-"""
-
 
 """
 As to Pool.close(), 

@@ -23,8 +23,10 @@ def simple_refcount():
     # 2 references, the function scope is destroyed
     print(sys.getrefcount(foo))
 
+    print(id(foo))
     foo = "fdjsndsf"
     print(sys.getrefcount(foo))
+    print(id(foo))
 
 
 def ggc():
@@ -87,5 +89,5 @@ def ggc():
     print(PyObject.from_address(lst_address).refcnt)
 
 
-# simple_refcount()
-ggc()
+simple_refcount()
+# ggc()

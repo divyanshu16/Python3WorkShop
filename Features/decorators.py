@@ -5,7 +5,7 @@ def smart_divide(func):
             print("Attempt to divide by 0")
             return
 
-        return func(a,b)
+        return func(a, b)
     return inner
 
 
