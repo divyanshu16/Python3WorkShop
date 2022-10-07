@@ -8,4 +8,6 @@ http://www.dabeaz.com/blog/2010/01/python-gil-visualized.html
 
 https://www.youtube.com/watch?v=KVKufdTphKs
 
+https://pythonspeed.com/articles/python-gil
+
 """
